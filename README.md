@@ -18,8 +18,8 @@ This project allows users to freely place LED lights in 2D space and automatical
 
 ### Initialization
 The initialization phase is required each time we change the disposition of the Strip. The goal is to create a map of the scene so that we can asssert where each singular LED is located in the scene and create its digital twin.
-1) **Load and run ChristmasTree.ino on the Arduino.** Each LED will sequentially blink white for 1 second and then turn off, while the next LED lights up.
-2) **Run TwinkleCam.pde on Computer** At this stage, a red dot appears on the real-time webcam image, marking the brightest pixel of the scene (ideally corresponding to the currently lit LED). However, reflections or noise can cause small artifacts, shifting the detected pixel away from the exact LED position.
+1) **Load and run `ChristmasTree.ino` on the Arduino.** Each LED will sequentially blink white for 1 second and then turn off, while the next LED lights up.
+2) **Run `TwinkleCam.pde` on Computer** At this stage, a red dot appears on the real-time webcam image, marking the brightest pixel of the scene (ideally corresponding to the currently lit LED). However, reflections or noise can cause small artifacts, shifting the detected pixel away from the exact LED position.
     -  **Press `q`** → confirm the LED position if the red dot is close enough to the actual LED.
     -  **Press `w`** → skip the LED if the detection is unreliable (e.g., hidden or affected by artifacts). Its position will later be interpolated from surrounding LEDs.<br>
 This process is repeated until all LEDs have been mapped.
@@ -30,7 +30,7 @@ This process is repeated until all LEDs have been mapped.
 Once the mapping information is fully sent to the Arduino:
 - All LEDs will light up simultaneously.
 - Using the digital twin, you can interactively select two colors for interpolation, set the blinking speed, and define the pattern direction.
-- Simply click and drag with the left mouse button in the desired direction to apply the pattern.
+- Simply **click and drag with the left mouse button** in the desired direction to apply the pattern.
 
 
 
