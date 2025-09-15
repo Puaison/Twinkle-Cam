@@ -5,6 +5,9 @@ A customizable LED Christmas lights project for the "Embedded Systems" exam at U
 This project allows users to freely place LED lights in 2D space and automatically detect their positions, enabling the display of dynamic color patterns (in particular diagonal, horizontal, and vertical bars with uniform colors).
 ⚠️ The documentation, comments on the code and slides are in Italian.
 
+## 📽️ Presentation and slides
+CLICK HERE for the slides .... [<img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_presentation_x128.png" alt="Google Slides" width= "30" height="30"/>](https://docs.google.com/presentation/d/1Ml5gRcW-q6FyOTWJMxbt3xbf4IljZu-z5hCkbEKTTB0/edit?usp=drivesdk)
+
 ## 🖥️ Hardware and Software Requirements 
 - **Computer** – Runs the controller software written in [Processing](https://processing.org/), responsible for detecting and mapping the LED positions, as well as sending the desired colors, velocity and patterns to the Arduino.
 
