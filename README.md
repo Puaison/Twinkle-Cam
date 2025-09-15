@@ -41,8 +41,7 @@ This process is repeated until all LEDs have been mapped.
 
 ### Running program
 <p align="center">
-  <img src="GIFs/Corresponding_digital_twin.gif" width="500">
-  <img src="GIFs/Digital_twin.gif" width="500">
+  <img src="GIFs/Digital_twin.gif" width="600">
 </p>
 
 Once the mapping information is fully sent to the Arduino:
